@@ -1,0 +1,68 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+}
+/*------------------------------------------------------------------Page blocks*/
+.homeHero{
+    background-image: url("images/download.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15vw;
+}
+.homeAboutMe{
+    /*background-color: gray; */
+    min-height: 40vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: 7vh;
+}
+.HI{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 5vw;
+}
+.textOnBlack{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2vw;
+}
+.aboutMeTitle{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+}
+.aboutMeText{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -9vh;
+    margin-left: 2vw;
+    font-family: "Segoe UI";
+    font-size: x-large;
+}
+.profilePic{
+    background-image: url("images/Layer 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    max-height: 30vh;
+    min-width: 14vw;
+    max-width: 30vw;
+    margin-left: 7vw;
+}
