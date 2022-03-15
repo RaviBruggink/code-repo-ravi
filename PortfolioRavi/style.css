@@ -1,12 +1,7 @@
-html,body{
-    padding: 0;
-    margin: 0;
-    font-family: "Segoe UI";
-}
 /*------------------------------------------------------------------Page blocks*/
 .homeHero{
-    background-image: url("images/download.png");
-    background-position: center;
+    background-image: url("images/crypto_landings_monolith_cover3.jpg");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 80vh;
@@ -24,13 +19,39 @@ html,body{
     justify-content: left;
     flex-direction: row;
     margin-top: 7vh;
+    margin-right: 10vw;
 }
-.HI{
-    color: white;
+/*------------------------------------------------------------------Text and fonts*/
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+}
+.Greeting{
+    color: black;
     margin: 0;
     padding: 0;
     text-align: left;
     font-size: 5vw;
+    filter: drop-shadow(4px 4px 4px white);
+    font-family: cursive;
+}
+.BigtextBlack{
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2vw;
+    filter: drop-shadow(4px 4px 4px white);
+    font-family: cursive;
+}
+.textOnWhite{
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2vw;
+    filter: drop-shadow(4px 4px 4px white);
 }
 .textOnBlack{
     color: white;
@@ -39,21 +60,39 @@ html,body{
     text-align: left;
     font-size: 2vw;
 }
-.aboutMeTitle{
+.HeadTextBlack{
     margin: 0;
     padding: 0;
     font-size: xx-large;
 }
-.aboutMeText{
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Segoe UI";
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    margin-top: 1vh;
+}
+/*------------------------------------------------------------------Divs*/
+.outcomeText{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 5vw;
+    margin-bottom: 0vh;
+}
+.aboutMeText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-top: -9vh;
     margin-left: 2vw;
-    font-family: "Segoe UI";
-    font-size: x-large;
 }
 .profilePic{
     background-image: url("images/Layer 1.png");
@@ -66,3 +105,28 @@ html,body{
     max-width: 30vw;
     margin-left: 7vw;
 }
+.wecomeBlock{
+    max-width: 33vw;
+    min-width: 30vw;
+    /* background-color: white; */
+    border-radius: 2vw;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    margin-left: 16vw;
+    margin-bottom: 43vh;
+    /*margin-top: -9vh;*/
+    transform: translateY(-8vh);
+}
+.homeOutcomes{
+    margin-left: 7vw;
+}
+.outcomeLink{
+    width: 25vw;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+}
+.outcomeBlockBin{
+    margin-top: 3vh;
+}
+
